@@ -203,6 +203,7 @@
   align-items: center;
   position: relative;
   background-color: white;
+
   a {
     color: red;
     font-size: 24px;
@@ -245,8 +246,9 @@
   }
 }
 
-.main__map{
+.main__map {
   position: relative;
+
   &::before {
     content: "";
     position: absolute;
@@ -256,16 +258,18 @@
     top: 0;
     z-index: 100;
   }
-  img:nth-child(1){
+
+  img:nth-child(1) {
     position: absolute;
     z-index: -1;
-    top:-420px;
+    top: -420px;
 
   }
-  img:nth-child(2){
+
+  img:nth-child(2) {
     position: absolute;
     z-index: 10;
     top: 115px;
-    left:150px;
+    left: 150px;
   }
 }

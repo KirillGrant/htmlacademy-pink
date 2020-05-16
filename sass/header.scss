@@ -47,11 +47,13 @@ body {
 .header__iphone-img {
   padding-top: 109px;
 }
-.header__present{
+
+.header__present {
   padding-top: 28px;
   padding-left: 20px;
   padding-right: 20px;
-  p{
+
+  p {
     color: white;
     text-align: center;
     font-size: 14px;
@@ -59,7 +61,8 @@ body {
     font-weight: lighter;
   }
 }
-.download__app{
+
+.download__app {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +77,8 @@ body {
   font-size: 18px;
   line-height: 18px;
 }
-.platform__icon{
+
+.platform__icon {
   width: 280px;
   padding-top: 32px;
   padding-left: 0;
@@ -83,17 +87,15 @@ body {
   justify-content: center;
   align-items: baseline;
   margin: 0;
-  li:nth-child(1){
+
+  li:nth-child(1) {
     padding-right: 37px;
   }
-  li:nth-child(2){
+
+  li:nth-child(2) {
     padding-right: 37px;
   }
-  img{
+
+  img {
   }
 }
-
-
-
-
-
