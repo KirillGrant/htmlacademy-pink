@@ -5,9 +5,10 @@ header {
   min-height: 734px;
   margin: 0 auto;
   background-color: $bg-header;
-  background-image: url("../img/");
-  background-size: 100%;
+  background-image: url("../img/back-mobile@1x.png");
+  background-size: 100px;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header__menu {
