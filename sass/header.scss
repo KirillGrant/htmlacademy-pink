@@ -1,2 +1,26 @@
 $bg-header: #1d2631;
-$bg-header-menu:rgba($bg-header, 1%);
+$bg-header-menu: rgba(#1d2631, 0.6);
+
+header {
+  width: 320px;
+  min-height: 734px;
+  margin: 0 auto;
+  background-color: $bg-header;
+  background-image: url("../img/");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.header__menu {
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 280px;
+  background-color: $bg-header-menu;
+}
+
+
+

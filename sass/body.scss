@@ -1,0 +1,17 @@
+$font-14:14px;
+$font-18:18px;
+$font-24:24px;
+$line-height-24:24px;
+$line-height-30:30px;
+$weight-bold:bold;
+$weight-light:lighter;
+$font-family: 'Open Sans', sans-serif;
+
+body {
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+  font-size: $font-14;
+  line-height: $line-height-24;
+  font-family: $font-family;
+}
