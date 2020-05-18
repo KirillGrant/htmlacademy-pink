@@ -3,10 +3,14 @@ var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
 var del = require('del');
 var concat = require('gulp-concat');
+var postcss = require('gulp-postcss');
+var autoprefixer = require('autoprefixer')
+
 
 gulp.task('sass', function () {
   return gulp.src('sass/**/*.+(scss|sass)')
     .pipe(sass.sync().on('error', sass.logError))
+    .pipe(postcss([autoprefixer()]))
     .pipe(concat('style.css'))
     .pipe(gulp.dest('build/css/'))
     .pipe(browserSync.stream());
@@ -21,8 +25,9 @@ gulp.task('fonts', function () {
     .pipe(gulp.dest('build/fonts'));
 });
 gulp.task('html', function () {
-  return gulp.src(['index.html'])
-    .pipe(gulp.dest('build'));
+  return gulp.src('*.html')
+    .pipe(gulp.dest('build'))
+    .pipe(browserSync.stream());
 });
 
 gulp.task('clean', function () {
@@ -37,7 +42,10 @@ gulp.task('serve', function () {
   });
 
   gulp.watch('sass/**/*.+(scss|sass)', gulp.task('sass'));
+  gulp.watch('*.html', gulp.task('html'));
 });
+
+
 
 gulp.task('build', gulp.series('clean', gulp.parallel('html', 'images', 'fonts', 'sass')));
 
