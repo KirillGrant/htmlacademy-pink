@@ -1,8 +1,9 @@
-$tablet-width: 768px;
-$desktop-width: 1200px;
-$bg-dark-blue:#283645;
+@import "../sass/variables";
+
 
 .main__title {
+  width:280px ;
+  margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 40px;
@@ -24,3 +25,7 @@ $bg-dark-blue:#283645;
   }
 }
 
+.main__iphone--img {
+  display: flex;
+  justify-content: center;
+}

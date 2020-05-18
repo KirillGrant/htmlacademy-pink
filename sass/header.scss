@@ -1,5 +1,4 @@
-$bg-header: #1d2631;
-$bg-header-menu: rgba(#1d2631, 0.6);
+@import "../sass/variables";
 
 header {
   width: 320px;
@@ -22,5 +21,16 @@ header {
   background-color: $bg-header-menu;
 }
 
+.navigation--disabled{
+  display: none;
+}
 
+.popup__btn-open {
+  border: none;
+  padding: 0;
+  background-color: initial;
+}
 
+.header__iphone {
+  padding-top: 109px;
+}
