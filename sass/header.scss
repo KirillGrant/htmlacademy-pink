@@ -34,22 +34,20 @@ header {
 
 .header__iphone {
   padding-top: 109px;
-  background-image: url("../img/iphone-hand-mobile@1x.png");
+  background-image: url("../img/");
 }
 
 @media (min-width: $tablet-width) {
   header {
-    width: 620px;
-    padding-left: 20px;
-    padding-right: 20px;
-
-    background-image: url("../img/bg-back-tablet@1x.jpg");
+    width: 660px;
+    background-image: url("../img/back-tablet@1x.png");
     background-repeat: no-repeat;
-
+    background-size: 100%;
   }
   .header__menu {
-    min-width: 100%;
-    padding: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 620px;
   }
   .header__presentation {
     padding-left: 20px;
@@ -59,10 +57,14 @@ header {
   .iphone {
     width: 478px;
     height: 575px;
-    background-image: url("../img/iphone-hand-tablet@1x.png");
+    background-image: url("../img/");
     background-repeat: no-repeat;
     background-size: 478px 545px;
     z-index: 1000;
   }
 }
 
+@media (min-width: $desktop-width) {
+
+
+}
