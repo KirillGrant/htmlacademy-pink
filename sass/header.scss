@@ -6,9 +6,10 @@ header {
   margin: 0 auto;
   background-color: $bg-header;
   background-image: url("../img/back-mobile@1x.png");
-  background-size: 100px;
+  background-size: 320px 462px;
   background-repeat: no-repeat;
   background-position: center;
+  background-position-y: 5px;
 }
 
 .header__menu {
