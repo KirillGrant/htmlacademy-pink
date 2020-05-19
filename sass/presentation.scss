@@ -84,6 +84,14 @@
 }
 
 @media (min-width: $desktop-width) {
-
-
+.presentation__platform-list{
+  padding-bottom: 40px;
+  margin: 0;
+}
+}
+.presentation{
+  p{
+    margin: 0;
+    padding-bottom: 100px;
+  }
 }
