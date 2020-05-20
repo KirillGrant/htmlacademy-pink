@@ -1,7 +1,7 @@
 @import "../sass/variables";
 
 header {
-  min-width: 320px;
+  width: 320px;
   margin: 0 auto;
   background-color: $bg-header;
   background-image: url("../img/back-mobile@1x.png");
@@ -47,7 +47,7 @@ header {
 
 @media (min-width: $tablet-width) {
   header {
-    min-width: 660px;
+    width: 660px;
     background-image: url("../img/back-tablet@1x.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -107,21 +107,32 @@ header {
   .navigation__list {
     display: flex;
     justify-content: space-between;
-    li:nth-child(1){
+
+    li:nth-child(1) {
       display: flex;
       padding-right: 80px;
     }
-    li:nth-child(2){
+
+    li:nth-child(2) {
       padding-right: 80px;
       display: flex;
     }
-    li:nth-child(3){
+
+    li:nth-child(3) {
       padding-right: 80px;
       display: flex;
     }
-    li:nth-child(4){
+
+    li:nth-child(4) {
       display: flex;
     }
   }
-
+  .header__presentation {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 100px;
+    background-image: url("../img/iphone-hand-desktop@1x.png");
+    background-position-x: 150px;
+    background-position-y: 50px;
+  }
 }
