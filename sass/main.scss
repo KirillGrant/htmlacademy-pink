@@ -1,13 +1,13 @@
 @import "../sass/variables";
 
 .main {
-  width: 280px;
+  width: 320px;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .main__title {
+  padding-left: 20px;
+  padding-right: 20px;
   padding-bottom: 40px;
   padding-top: 46px;
   display: flex;
@@ -37,14 +37,14 @@
 
 @media (min-width: $tablet-width) {
   .main {
-    width: 620px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 660px;
     margin: 0 auto;
   }
   .main__title {
     padding-top: 60px;
-    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+
 
     h2 {
       font-size: 40px;
@@ -60,13 +60,13 @@
 
 @media (min-width: $desktop-width) {
   .main {
-    width: 960px;
-    padding-right: 120px;
-    padding-left: 120px;
+    width: 1200px;
     margin: 0 auto;
   }
   .main__title {
-    width: 100%;
+    width: 960px;
+    padding-right: 120px;
+    padding-left: 120px;
 
     h2 {
       font-size: 50px;
