@@ -1,0 +1,47 @@
+@import "reviews";
+
+@media (min-width: 320px) {
+  .study {
+    display: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .study {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .study {
+    width: 960px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: $bg-decor-light-grey;
+    min-height: 413px;
+    display: flex;
+    background-image: url("../img/24.png");
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+
+    .study__text {
+      width: 574px;
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h3 {
+        display: inline-block;
+        margin: 0;
+        text-align: left;
+      }
+
+      p {
+        display: inline-block;
+        margin: 0;
+        text-align: left;
+      }
+    }
+  }
+}
