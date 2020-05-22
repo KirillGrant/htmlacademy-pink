@@ -42,7 +42,55 @@
     padding-right: 20px;
     padding-left: 20px;
   }
-}.about__text--third{
+}
+
+.about__text--third {
   display: block;
- }
+}
+
+@media (min-width: $tablet-width) {
+  .about {
+    width: 620px;
+    min-height: 501px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: none;
+    position: relative;
+
+    li {
+      display: inline-block;
+      margin-left: auto;
+      width: 340px;
+      font-size: 14px;
+      line-height: 24px;
+
+      h3 {
+        text-align: left;
+        margin: 0;
+        margin-bottom: 10px;
+      }
+
+      p {
+        text-align: left;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+    }
+
+    &::before {
+      content: "";
+      border-top: 59px white solid;
+      border-right: 660px $bg-decor-light-grey solid;
+    }
+
+    &::after {
+      content: url("../img/iphone-screen-3-tablet@1x.png");
+      display: flex;
+      position: absolute;
+      left: 20px;
+      top: 20px;
+    }
+  }
+}
+
 
