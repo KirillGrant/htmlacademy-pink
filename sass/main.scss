@@ -1,12 +1,15 @@
 @import "../sass/variables";
 
-
-.main__title {
-  width:280px ;
+.main {
+  width: 280px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.main__title {
   padding-bottom: 40px;
+  padding-top: 46px;
   display: flex;
   flex-direction: column;
 
@@ -17,15 +20,61 @@
     margin-right: auto;
     font-size: $font-24;
     font-weight: lighter;
+    margin-top: 0;
     margin-bottom: 0;
+    line-height: 24px;
   }
 
   h2:nth-child(1) {
-    margin-top: 46px;
+    margin-bottom: 30px;
   }
 }
 
 .main__iphone--img {
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: $tablet-width) {
+  .main {
+    width: 620px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  .main__title {
+    padding-top: 60px;
+    width: 100%;
+
+    h2 {
+      font-size: 40px;
+      line-height: 40px;
+      margin: 0;
+    }
+
+    h2:nth-child(1) {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main {
+    width: 960px;
+    padding-right: 120px;
+    padding-left: 120px;
+    margin: 0 auto;
+  }
+  .main__title {
+    width: 100%;
+
+    h2 {
+      font-size: 50px;
+      line-height: 50px;
+    }
+    h2:nth-child(1){
+      margin-bottom: 15px;
+    }
+  }
+
 }
