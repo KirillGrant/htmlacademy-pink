@@ -92,9 +92,42 @@
   }
   .reviews__btn-list {
     padding: 0;
+    position: relative;
 
     .btn {
       display: none;
+    }
+
+    .btn--desktop-prev {
+      display: block;
+      position: absolute;
+      top: -225px;
+      right: -10px;
+      width: 22px;
+      height: 22px;
+      border-top: 2px black solid;
+      border-right: 2px black solid;
+      transform: rotate(45deg);
+      border-radius: 0;
+      background-color: transparent;
+      outline: none;
+      margin: 0;
+    }
+
+    .btn--desktop-next {
+      display: block;
+      position: absolute;
+      top: -225px;
+      left: -15px;
+      width: 22px;
+      height: 22px;
+      border-top: 2px black solid;
+      border-left: 2px black solid;
+      transform: rotate(-45deg);
+      border-radius: 0;
+      background-color: transparent;
+      outline: none;
+      margin: 0;
     }
   }
 
