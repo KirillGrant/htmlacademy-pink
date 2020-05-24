@@ -1,0 +1,757 @@
+.about {
+  width: 320px;
+  padding-left: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  min-height: 840px;
+  list-style: none;
+  background-image: url("../img/iphone-screen-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position-y: 555px;
+  background-position-x: 50%; }
+  .about::before {
+    content: "";
+    border-top: 59px white solid;
+    border-right: 320px #f2f2f2 solid; }
+
+.about__text--first {
+  padding-top: 25px; }
+
+.about__text h3 {
+  width: 280px;
+  display: inline-block;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.about__text p {
+  width: 280px;
+  display: inline-block;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px; }
+
+.about__text--third {
+  display: block; }
+
+@media (min-width: 768px) {
+  .about {
+    width: 620px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: none;
+    position: relative; }
+    .about li {
+      display: inline-block;
+      margin-left: auto;
+      width: 340px;
+      font-size: 14px;
+      line-height: 24px; }
+      .about li h3 {
+        text-align: left;
+        margin: 0;
+        margin-bottom: 10px; }
+      .about li p {
+        text-align: left;
+        margin: 0;
+        margin-bottom: 20px; }
+    .about::before {
+      content: "";
+      border-top: 59px white solid;
+      border-right: 660px #f2f2f2 solid; }
+    .about::after {
+      content: url("../img/iphone-screen-3-tablet@1x.png");
+      display: flex;
+      position: absolute;
+      left: 20px;
+      top: 20px; } }
+
+@media (min-width: 1200px) {
+  .about {
+    position: relative;
+    width: 960px;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    .about::before {
+      content: "";
+      position: absolute;
+      border-top: 59px white solid;
+      border-right: 1200px #f2f2f2 solid;
+      top: 0;
+      left: 0; }
+    .about::after {
+      display: none; }
+    .about li {
+      display: inline-block;
+      width: 236px;
+      padding-top: 350px;
+      position: relative;
+      padding-left: 0; }
+      .about li h3 {
+        display: inline-block;
+        width: 236px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px; }
+      .about li p {
+        display: inline-block;
+        width: 236px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px; }
+    .about li:nth-child(1) {
+      background-image: url("../img/iphone-screen-1-desktop@1x.png");
+      background-position-y: 20px;
+      background-repeat: no-repeat; }
+      .about li:nth-child(1)::before {
+        content: url("../img/Layer 156.png");
+        position: absolute;
+        top: 313px; }
+    .about li:nth-child(2) {
+      margin-left: 100px;
+      margin-right: 100px;
+      background-image: url("../img/iphone-screen-2-desktop@1x.png");
+      background-position-y: 5px;
+      background-repeat: no-repeat; }
+      .about li:nth-child(2)::before {
+        content: url("../img/Layer 156.png");
+        position: absolute;
+        top: 297px; }
+    .about li:nth-child(3) {
+      background-image: url("../img/iphone-screen-3-desktop@1x.png");
+      background-position-y: 5px;
+      background-repeat: no-repeat; }
+      .about li:nth-child(3)::before {
+        content: url("../img/Layer 156.png");
+        position: absolute;
+        top: 297px; } }
+
+body {
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+@charset "UTF-8";
+.contaсt {
+  min-height: 412px;
+  width: 280px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: white; }
+  .contaсt a {
+    color: red;
+    font-size: 24px;
+    display: inline-block;
+    text-align: center; }
+
+.contact__title h3 {
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 24px;
+  margin-bottom: 45px;
+  margin-top: 50px; }
+
+.contact__mini-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 13px; }
+
+.contact__phone h4 {
+  padding-left: 60px; }
+
+.contact__email h4 {
+  padding-left: 90px; }
+
+.contact__address h4 {
+  padding-left: 15px; }
+
+.decorate__block {
+  width: 0;
+  height: 0;
+  border-top: 20px white solid;
+  border-right: 320px #f2f2f2 solid;
+  padding-bottom: 50px; }
+
+header {
+  width: 320px;
+  margin: 0 auto;
+  background-color: #1d2631;
+  background-image: url("../img/back-mobile@1x.png");
+  background-size: 320px 462px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 5px; }
+
+.header__menu {
+  height: 66px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 280px;
+  background-color: rgba(29, 38, 49, 0.6);
+  display: flex;
+  background-image: url("../img/logo-pink-white-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 20px; }
+
+.popup__btn-open {
+  border: none;
+  padding: 0;
+  background-color: initial;
+  align-items: center;
+  margin-left: auto; }
+
+.navigation {
+  display: none; }
+
+.header__presentation {
+  background-image: url("../img/iphone-hand-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position-y: 115px;
+  padding-top: 425px; }
+
+@media (min-width: 768px) {
+  header {
+    width: 660px;
+    background-image: url("../img/back-tablet@1x.png");
+    background-repeat: no-repeat;
+    background-size: 100%; }
+  .header__menu {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 620px;
+    background-image: url("../img/logo-pink-white-tablet.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 20px; }
+  .navigation {
+    display: none; }
+  .header__presentation {
+    display: flex;
+    background-image: url("../img/iphone-hand-tablet@1x.png");
+    background-position-x: -20px;
+    background-position-y: 74px;
+    background-repeat: no-repeat;
+    padding-top: 74px;
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media (min-width: 1200px) {
+  header {
+    width: 1200px;
+    background-image: url("../img/bg-back-desktop@1x.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; }
+  .header__menu {
+    padding-right: 120px;
+    padding-left: 120px;
+    width: 960px; }
+  .header__menu {
+    background-image: url("../img/logo-pink-white-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 120px; }
+  .popup__btn-open {
+    display: none; }
+  .navigation {
+    color: white;
+    display: flex;
+    margin-left: 320px; }
+  .navigation__list {
+    display: flex;
+    justify-content: space-between; }
+    .navigation__list li:nth-child(1) {
+      display: flex;
+      padding-right: 80px; }
+    .navigation__list li:nth-child(2) {
+      padding-right: 80px;
+      display: flex; }
+    .navigation__list li:nth-child(3) {
+      padding-right: 80px;
+      display: flex; }
+    .navigation__list li:nth-child(4) {
+      display: flex; }
+  .header__presentation {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 100px;
+    background-image: url("../img/iphone-hand-desktop@1x.png");
+    background-position-x: 150px;
+    background-position-y: 50px; } }
+
+.main {
+  width: 320px;
+  margin: 0 auto; }
+
+.main__title {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-top: 46px;
+  display: flex;
+  flex-direction: column; }
+  .main__title h2 {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 24px; }
+  .main__title h2:nth-child(1) {
+    margin-bottom: 30px; }
+
+.main__iphone--img {
+  display: flex;
+  justify-content: center; }
+
+@media (min-width: 768px) {
+  .main {
+    width: 660px;
+    margin: 0 auto; }
+  .main__title {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .main__title h2 {
+      font-size: 40px;
+      line-height: 40px;
+      margin: 0; }
+    .main__title h2:nth-child(1) {
+      margin-bottom: 10px; } }
+
+@media (min-width: 1200px) {
+  .main {
+    width: 1200px;
+    margin: 0 auto; }
+  .main__title {
+    width: 960px;
+    padding-right: 120px;
+    padding-left: 120px; }
+    .main__title h2 {
+      font-size: 50px;
+      line-height: 50px; }
+    .main__title h2:nth-child(1) {
+      margin-bottom: 15px; } }
+
+.map {
+  position: relative;
+  margin: 0 auto;
+  width: 320px; }
+  .map::before {
+    content: "";
+    position: absolute;
+    border-top: 60px white solid;
+    border-left: 165px transparent solid;
+    border-right: 165px transparent solid;
+    top: 0;
+    z-index: 100; }
+  .map img:nth-child(1) {
+    position: absolute;
+    z-index: -1;
+    top: -120px; }
+  .map img:nth-child(2) {
+    position: absolute;
+    z-index: 10;
+    top: 115px;
+    left: 150px; }
+
+
+.offer {
+  width: 280px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto; }
+  .offer table {
+    border-collapse: collapse; }
+
+.offer__title {
+  position: relative;
+  width: 276px;
+  height: 98px;
+  background-color: #283645;
+  color: white;
+  text-align: center;
+  border: 3px #bec2c7 solid;
+  border-top: none;
+  border-bottom: none; }
+  .offer__title::before {
+    content: "";
+    width: 72px;
+    height: 72px;
+    background-image: url("../img/");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -1px;
+    left: -1px; }
+
+.offer__option {
+  width: 275px;
+  height: 60px;
+  color: #283645;
+  border: 3px #bec2c7 solid;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 30px; }
+
+.offer__option--yes {
+  background-image: url("../img/");
+  background-repeat: no-repeat;
+  background-size: 29px;
+  background-position-x: 90%;
+  background-position-y: 50%; }
+
+.offer__option--no {
+  background-image: url("../img/");
+  background-repeat: no-repeat;
+  background-size: 29px;
+  background-position-x: 90%;
+  background-position-y: 50%; }
+
+.offer__btn-list {
+  width: 320px;
+  min-height: 97px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2; }
+
+.presentation {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .presentation p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: lighter;
+    margin: 0;
+    padding-bottom: 40px; }
+
+.presentation__title {
+  display: none; }
+
+.presentation__download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 274px;
+  height: 50px;
+  background-color: initial;
+  border: 3px white solid;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px; }
+
+.presentation__platform-list {
+  width: 280px;
+  padding-top: 32px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0;
+  padding-bottom: 25px; }
+  .presentation__platform-list li:nth-child(1) {
+    padding-right: 37px; }
+  .presentation__platform-list li:nth-child(2) {
+    padding-right: 37px; }
+
+@media (min-width: 768px) {
+  .presentation {
+    min-width: 303px;
+    order: -1;
+    justify-content: center;
+    padding: 0; }
+  .presentation__title {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 40px; }
+  .presentation__download {
+    margin-bottom: 45px; } }
+
+.reviews {
+  width: 280px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  min-height: 205px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .reviews h4 {
+    padding-top: 50px;
+    text-align: center;
+    margin-top: 0; }
+  .reviews p {
+    text-align: center;
+    padding-bottom: 45px;
+    margin: 0; }
+
+.reviews__text {
+  list-style: none;
+  padding-left: 0; }
+
+.reviews__btn-list {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-bottom: 50px;
+  padding-left: 15px; }
+
+.btn {
+  padding: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #bec2c7;
+  border: 1px white solid;
+  border-radius: 50%;
+  outline: none;
+  margin-right: 20px; }
+
+.btn--active {
+  border: 3px #283645 solid;
+  border-radius: 50%; }
+
+@media (min-width: 1200px) {
+  .reviews {
+    width: 960px;
+    padding-right: 120px;
+    padding-left: 120px;
+    background-image: url("../img/quotes.svg.png");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 35px; }
+  .reviews__text-list {
+    padding-top: 155px;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0; }
+  .reviews__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .reviews__text h4 {
+      padding-top: 0;
+      margin-bottom: 74px;
+      order: 2;
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: bold; }
+    .reviews__text p {
+      padding-bottom: 0;
+      font-size: 18px;
+      line-height: 30px;
+      width: 700px;
+      margin-bottom: 50px; }
+  .reviews__btn-list {
+    padding: 0;
+    position: relative; }
+    .reviews__btn-list .btn {
+      display: none; }
+    .reviews__btn-list .btn--desktop-prev {
+      display: block;
+      position: absolute;
+      top: -225px;
+      right: -10px;
+      width: 22px;
+      height: 22px;
+      border-top: 2px black solid;
+      border-right: 2px black solid;
+      transform: rotate(45deg);
+      border-radius: 0;
+      background-color: transparent;
+      outline: none;
+      margin: 0; }
+    .reviews__btn-list .btn--desktop-next {
+      display: block;
+      position: absolute;
+      top: -225px;
+      left: -15px;
+      width: 22px;
+      height: 22px;
+      border-top: 2px black solid;
+      border-left: 2px black solid;
+      transform: rotate(-45deg);
+      border-radius: 0;
+      background-color: transparent;
+      outline: none;
+      margin: 0; } }
+
+.reviews {
+  width: 280px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  min-height: 205px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .reviews h4 {
+    padding-top: 50px;
+    text-align: center;
+    margin-top: 0; }
+  .reviews p {
+    text-align: center;
+    padding-bottom: 45px;
+    margin: 0; }
+
+.reviews__text {
+  list-style: none;
+  padding-left: 0; }
+
+.reviews__btn-list {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-bottom: 50px;
+  padding-left: 15px; }
+
+.btn {
+  padding: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #bec2c7;
+  border: 1px white solid;
+  border-radius: 50%;
+  outline: none;
+  margin-right: 20px; }
+
+.btn--active {
+  border: 3px #283645 solid;
+  border-radius: 50%; }
+
+@media (min-width: 1200px) {
+  .reviews {
+    width: 960px;
+    padding-right: 120px;
+    padding-left: 120px;
+    background-image: url("../img/quotes.svg.png");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 35px; }
+  .reviews__text-list {
+    padding-top: 155px;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0; }
+  .reviews__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .reviews__text h4 {
+      padding-top: 0;
+      margin-bottom: 74px;
+      order: 2;
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: bold; }
+    .reviews__text p {
+      padding-bottom: 0;
+      font-size: 18px;
+      line-height: 30px;
+      width: 700px;
+      margin-bottom: 50px; }
+  .reviews__btn-list {
+    padding: 0;
+    position: relative; }
+    .reviews__btn-list .btn {
+      display: none; }
+    .reviews__btn-list .btn--desktop-prev {
+      display: block;
+      position: absolute;
+      top: -225px;
+      right: -10px;
+      width: 22px;
+      height: 22px;
+      border-top: 2px black solid;
+      border-right: 2px black solid;
+      transform: rotate(45deg);
+      border-radius: 0;
+      background-color: transparent;
+      outline: none;
+      margin: 0; }
+    .reviews__btn-list .btn--desktop-next {
+      display: block;
+      position: absolute;
+      top: -225px;
+      left: -15px;
+      width: 22px;
+      height: 22px;
+      border-top: 2px black solid;
+      border-left: 2px black solid;
+      transform: rotate(-45deg);
+      border-radius: 0;
+      background-color: transparent;
+      outline: none;
+      margin: 0; } }
+
+@media (min-width: 320px) {
+  .study {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .study {
+    display: none; } }
+
+@media (min-width: 1200px) {
+  .study {
+    width: 960px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: #f2f2f2;
+    min-height: 413px;
+    display: flex;
+    background-image: url("../img/24.png");
+    background-repeat: no-repeat;
+    background-position-x: 150px; }
+    .study .study__text {
+      width: 574px;
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .study .study__text h3 {
+        display: inline-block;
+        margin: 0;
+        text-align: left; }
+      .study .study__text p {
+        display: inline-block;
+        margin: 0;
+        text-align: left; } }
+
